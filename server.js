@@ -8,7 +8,7 @@ let sqlite3 = require('sqlite3');
 let db = new sqlite3.Database('SQLdatenbank.db');
 
 // define home route
-app.use('/', express.static('../public'));
+app.use('/', express.static('./public'));
 
 // set sub route 
 app.get('/QR', (req, res) => {
@@ -23,7 +23,7 @@ app.get('/QR', (req, res) => {
 // http://localhost:1337/newQR?value=Hello:)
 app.post('/newQR', (req, res) => {
     // Only allow acces via port 1337 
-    res.setHeader('Access-Control-Allow-Origin', 'http://localhost:1337');
+    res.setHeader('Access-Control-Allow-Origin', 'https://kanbalance.herokuapp.com/');
     //sql query insert into table QRCodes
     db.run('INSERT INTO QRCodes (QR) VALUES (?)', [req.query.value], (err) => {
         if (!err) {
@@ -57,7 +57,7 @@ app.post('/newKanban', (req, res) => {
     
 
     // Erlaube nur Zugriffe von dieser URL
-    res.setHeader('Access-Control-Allow-Origin', 'http://localhost:1337');
+    res.setHeader('Access-Control-Allow-Origin', 'https://kanbalance.herokuapp.com/');
 
     db.run('INSERT INTO Kanban (data) VALUES (?)', [req.query.value], (err) => {
         if (!err) {
