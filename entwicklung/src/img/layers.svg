@@ -1,0 +1,24 @@
+<svg width="2572" height="2576" viewBox="0 0 2572 2576" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>layers</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="matrix(4 0 0 4 -13328 6552)">
+<g id="layers">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(3332 -1638)" fill="#F4DD80"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(3332 -1385.79)" fill="#F2AD5E"/>
+</g>
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path2_fill" transform="translate(3332 -1246.89)" fill="#F0917F"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 643 182.542L 321.5 366.196L -3.01114e-09 182.542L 321.5 0L 643 182.542Z"/>
+<path id="path1_fill" d="M 321.5 113.988L 121.952 -5.39503e-06L -3.01114e-09 69.2363L 321.5 252.89L 643 69.2363L 521.048 -5.39503e-06L 321.5 113.988Z"/>
+<path id="path2_fill" d="M 321.5 113.988L 121.952 -5.39503e-06L -3.01114e-09 69.2363L 321.5 252.89L 643 69.2363L 521.048 -5.39503e-06L 321.5 113.988Z"/>
+</defs>
+</svg>
